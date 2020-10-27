@@ -1,0 +1,91 @@
+.coin-form-container {
+  width: 250px;
+}
+
+.button {
+  width: auto;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #061d5e;
+  background: #074b72;
+  text-align: center;
+  padding: 5px 5px 5px;
+  box-shadow: 0 0 10px gray;
+}
+.coin-style {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: silver;
+  align-items: center;
+  position: relative;
+}
+
+.penny-div {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: chocolate;
+  border: 1px solid black;
+}
+
+.nickel-div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: silver;
+  border: 1px solid black;
+}
+
+.dime-div {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: silver;
+  border: 1px solid black;
+}
+
+.quarter-div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: silver;
+  border: 1px solid black;
+}
+
+.coin-form-container {
+  margin: 20px;
+  align-items: center;
+}
+
+.lightBulb {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  color: #ecf0f1;
+  border-radius: 50%;
+}
+
+.lightChange {
+  background-color: yellow;
+}
+
+.button3 {
+  position: relative;
+  width: auto;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #061d5e;
+  background: #074b72;
+  text-align: center;
+  padding: 5px 5px 5px;
+  box-shadow: 0 0 10px gray;
+}
+
+.endMode {
+  background-color: lightgray;
+  color: gray;
+}

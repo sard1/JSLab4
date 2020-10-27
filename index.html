@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Lab 4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    
+  <div class="vending-machine">
+    <p class = "total-paragraph">Total:</p>
+    <button data-price="2" class = "button cola">Lime Cola $2.00</button>
+    <button data-price="3" class = "button peanuts" >Salted Peanuts $3.00</button>
+    <button data-price="4" class = "button chocolate" >Chocolate Bar $4.00</button>
+    <button data-price="6" class = "button gummies" >Fruit Gummies $6.00</button>
+  </div>
+  
+  <div class="coin-form-container">
+    
+    <form class="coinAdderForm">
+      <label for="coinAmount">How Many?</label>
+      <input type="number" min = 0 name="coinAmount" id="coinAmount">
+      <label for="coinType">Which coin?</label>
+      <select name="coinType" id="coinType">
+        <option class = "penny-div" value="Penny">Penny</option>
+        <option class = "nickel-div" value="Nickel">Nickel</option>
+        <option class = "dime-div" value="Dime">Dime</option>
+        <option class = "quarter-div" value="Quarter">Quarter</option>
+      </select>
+      <button class = "button">Make Money!</button>
+    </form>
+    
+    <div class="coin-container">
+      
+    </div>
+  </div>
+  
+  <div class="lightbulb-container">
+    <div class="lightBulb">Light Bulb</div>
+    <button class = "button3 on">On</button>
+    <button class = "button3 off">Off</button>
+<button class = "button3 toggle">Toggle</button>
+<button class = "button3 end">End</button>
+</div>
+
+  </main>
+<script src="script.js"></script>
+</body>
+
+</html>
